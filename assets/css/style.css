@@ -1865,18 +1865,19 @@ p {
 }
 .slider__item-title {
   line-height: 1.5;
+  font-weight: bold;
   font-size: 2rem;
   padding: 40px;
 }
 @media (max-width: 600px) {
   .slider__item-title {
-    font-size: 1rem;
-    padding: 20px 20px;
+    font-size: 1.5rem;
+    padding: 20px 15px;
   }
 }
 @media (max-width: 375px) {
   .slider__item-title {
-    padding: 12px 12px;
+    padding: 12px 10px;
   }
 }
 .slider__item-text {

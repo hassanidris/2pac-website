@@ -335,16 +335,17 @@
   
   &-title {
     line-height: 1.5;
+    font-weight: bold;
     font-size: 2rem;
     padding: 40px;
 
     @media (max-width: 600px) {
-      font-size: 1rem;
-      padding: 20px 20px;
+      font-size: 1.5rem;
+      padding: 20px 15px;
     }
     
     @media (max-width: 375px) {
-      padding: 12px 12px;
+      padding: 12px 10px;
     }
   }
   
