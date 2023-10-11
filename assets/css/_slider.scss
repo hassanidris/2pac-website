@@ -112,6 +112,7 @@
 .slider-container {
   position: relative;
   padding: 0;
+  
   .prev-btn {
     position: absolute;
     left: -50px;
@@ -119,7 +120,12 @@
     transform: translateY(-50%);
     width: 50px;
     cursor: pointer;
+
+    @media (max-width: 900px) {
+      width: 30px;
+    }
   }
+
   .next-btn {
     position: absolute;
     right: -50px;

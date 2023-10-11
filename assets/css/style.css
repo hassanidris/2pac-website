@@ -741,7 +741,6 @@ p {
 }
 .bio-container_content--title {
   padding-bottom: 1rem;
-  font-size: 2.5rem;
 }
 .bio-container_content--text {
   font-family: var(--ff-hind);
@@ -918,6 +917,11 @@ p {
   transform: translateY(-50%);
   width: 50px;
   cursor: pointer;
+}
+@media (max-width: 900px) {
+  .slider-container .prev-btn {
+    width: 30px;
+  }
 }
 .slider-container .next-btn {
   position: absolute;
