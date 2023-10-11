@@ -358,8 +358,16 @@
 .section {
   position: relative;
   width: 100%;
-  padding: 120px 24px;
+  padding: 50px 24px;
   text-align: center;
+
+  @media (max-width: 600px) {
+    padding: 30px 24px;
+  }
+  
+  @media (max-width: 375px) {
+    padding: 15px 24px;
+  }
   
   &__entry {
     width: 100%;
