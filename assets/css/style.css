@@ -921,6 +921,7 @@ p {
 @media (max-width: 900px) {
   .slider-container .prev-btn {
     width: 30px;
+    left: -30px;
   }
 }
 .slider-container .next-btn {
@@ -934,6 +935,7 @@ p {
 @media (max-width: 900px) {
   .slider-container .next-btn {
     width: 30px;
+    right: -30px;
   }
 }
 
