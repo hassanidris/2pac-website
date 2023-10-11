@@ -927,6 +927,11 @@ p {
   width: 50px;
   cursor: pointer;
 }
+@media (max-width: 900px) {
+  .slider-container .next-btn {
+    width: 30px;
+  }
+}
 
 /* --------- End of Slider Styling ---------- */
 /* ------------------- */

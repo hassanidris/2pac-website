@@ -127,6 +127,13 @@
     transform: translateY(-50%);
     width: 50px;
     cursor: pointer;
+
+    @media (max-width: 900px) {
+      width: 30px;
+    }
+    // @media (max-width: 600px) {
+    //   margin-top: 60px;
+    // }
   }
 }
 
