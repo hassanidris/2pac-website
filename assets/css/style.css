@@ -432,7 +432,7 @@ html {
 body {
   font-family: var(--ff-aleo);
   line-height: 1.6;
-  max-height: 100vh;
+  height: 100vh;
   background-image: url("/assets/img/bg.jpg");
   background-position: left;
   background-repeat: no-repeat;
