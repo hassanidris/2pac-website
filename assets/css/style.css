@@ -1893,6 +1893,7 @@ p {
 }
 .slider__item-text {
   padding: 20px 0;
+  font-family: var(--ff-hind);
 }
 
 .section {
